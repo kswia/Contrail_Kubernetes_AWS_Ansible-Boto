@@ -68,7 +68,7 @@ The solution is organized in 3 parts:
 
 2. Download the CloudFormation template from the location below to the local machine
 
-   wget https://raw.githubusercontent.com/gokulpch/Ansible_Base_Hosts_CloudFormation-Templates/master/CFormation-BHost-K8S-Contrail.json#
+   wget https://raw.githubusercontent.com/kswia/Contrail_Kubernetes_AWS_Ansible-Boto/master/CFormation-BHost-K8S-Contrail.json
 
 3. Select CloudFormation service from AWS web portal 
 
