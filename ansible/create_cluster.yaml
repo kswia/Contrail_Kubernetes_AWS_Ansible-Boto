@@ -155,6 +155,8 @@
   become: true
   gather_facts: no
   pre_tasks:
+    - name: quick fix apt update
+      raw: sudo apt-get update
     - name: install python2 because Ubuntu has python 3
       raw: sudo apt-get -y install python-simplejson
 
